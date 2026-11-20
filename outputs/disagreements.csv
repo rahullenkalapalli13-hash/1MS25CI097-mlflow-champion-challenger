@@ -1,0 +1,6 @@
+input,reference,pred_A,pred_B,correct_model,comment
+"fun , flip and terribly hip bit of cinematic entertainment . ",1,1,0,A,"Positive review, but 'terribly' sounds negative out of context. RoBERTa was likely misled by that word while DistilBERT read the overall praise correctly."
+"it 's a bit disappointing that it only manages to be decent instead of dead brilliant . ",0,0,1,A,"Negative review that contains positive words ('decent', 'brilliant'). The negativity comes from the comparison, and RoBERTa was likely fooled by the positive words."
+"oh come on . ",0,1,0,B,"Very short with no clear sentiment words, so it depends on tone. RoBERTa picked up the exasperated tone while DistilBERT guessed positive."
+"i 've always dreamed of attending cannes , but after seeing this film , it 's not that big a deal . ",0,0,1,A,"The sentence starts positive ('always dreamed') and only turns negative at the end ('not that big a deal'). This mixed structure likely misled RoBERTa."
+"/ but daphne , you 're too buff / fred thinks he 's tough / and velma - wow , you 've lost weight ! ",0,0,1,A,"Mocking parody lyrics. The compliments ('buff', 'tough', 'lost weight') sound positive but are ironic, and it needs outside context. RoBERTa took them literally."

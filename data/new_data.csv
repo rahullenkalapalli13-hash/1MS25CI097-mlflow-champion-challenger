@@ -1,0 +1,11 @@
+text,expected_label
+"The battery lasts all day and the screen is gorgeous.",POSITIVE
+"I waited an hour and the food arrived cold.",NEGATIVE
+"What a wonderful surprise, the team exceeded every expectation!",POSITIVE
+"The app crashes every time I open it. Completely useless.",NEGATIVE
+"Not bad at all, I would happily watch it again.",POSITIVE
+"The plot was predictable and the acting felt wooden.",NEGATIVE
+"Customer support solved my issue in five minutes. Impressive!",POSITIVE
+"I regret buying this; it broke after two days.",NEGATIVE
+"Oh great, another delayed flight. Just what I needed today.",NEGATIVE
+"A warm, funny and beautifully shot film.",POSITIVE
